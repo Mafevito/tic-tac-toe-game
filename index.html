@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe Game</title>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <header>
+        <h1 class="title">Tic Tac Toe</h1>
+        <h3 class="subtitle">
+          Jugador actual: <span id="current-player">X</span>
+        </h3>
+      </header>
+
+      <div class="game-container" id="board">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+
+      <div class="win-message" id="win-message">
+        <span id="text-win-message"></span>
+        <button class="btn" id="btn-restart">Volver a jugar</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
